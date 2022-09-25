@@ -6,9 +6,8 @@ This is a extended Neptune 3 Klipper / Mainsail Config
 
 This Files are only compatible together!
 
-Watch my Youtube Videos to know how it works ;)
 
-### Link: published soon
+### Link for tutorial: published soon
 
 #### Discord: https://discord.gg/kBdeP3ZtCY
 
