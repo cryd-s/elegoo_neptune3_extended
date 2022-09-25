@@ -10,13 +10,25 @@ Watch my Youtube Videos to know how it works ;)
 #### Discord: https://discord.gg/kBdeP3ZtCY
 
 
+#1 Install
+ - Flash the mainsailOS Image to the raspberry (i use the raspberry pi imager)
+ - Make the bin with the "make config"
+ - Flash the printer
 
+#2 Settings
+- download printer.cfg and macros.cfg and upload it to the raspberry
+- Change the SuperSlicer / Cura Start and End GCode
 
-## Input Shaping - uncomment the sections i showed in my video:
+#3 Calibration
+- Calibrate rotation distance (E-Steps)
+- Calibrate PID 
+- Calibrate Pressure Advance
+
+#4 Input Shaping 
 
 https://www.klipper3d.org/Measuring_Resonances.html
 
-### Shortlist Commands:
+Shortlist Commands:
 ```
 ~/klippy-env/bin/pip install -v numpy
 ```
@@ -72,7 +84,7 @@ TEST_RESONANCES AXIS=X
 TEST_RESONANCES AXIS=Y
 ```
 
-### To create the graph:
+To create the graph:
 
 ```
 ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
@@ -80,13 +92,5 @@ TEST_RESONANCES AXIS=Y
 ```
 ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
 ```
-
-## Max Accel
-
-https://www.klipper3d.org/Resonance_Compensation.html#tuning
-
-STL: https://www.klipper3d.org/prints/ringing_tower.stl
-
->TUNING_TOWER COMMAND=SET_VELOCITY_LIMIT PARAMETER=ACCEL START=1250 FACTOR=100 BAND=5
 
 Have fun and join our discord!
