@@ -1,4 +1,7 @@
 # Elegoo Neptune 3 extended
+
+https://www.youtube.com/c/Crydteam
+
 This is a extended Neptune 3 Klipper / Mainsail Config
 
 This Files are only compatible together!
