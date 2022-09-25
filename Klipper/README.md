@@ -1,4 +1,4 @@
-# elegoo neptunte extended extended
+# Elegoo Neptune 3 extended
 This is a extended Neptune 3 Klipper / Mainsail Config
 
 This Files are only compatible together!
